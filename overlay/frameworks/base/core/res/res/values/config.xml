@@ -585,4 +585,7 @@
         <item>"/system/lib64/libsurfaceflinger.so"</item>
     </string-array>
 
+    <!-- Smart Charging -->
+    <bool name="config_supportSmartCharging">true</bool>
+
 </resources>
