@@ -2,7 +2,6 @@
 # system.prop for X01AD
 #
 
-rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
 persist.rild.nitz_plmn=
 persist.rild.nitz_long_ons_0=
@@ -88,6 +87,7 @@ persist.timed.enable=true
 #system prop for Bluetooth SOC type
 ro.bluetooth.library_name=libbluetooth_qti.so
 persist.vendor.btstack.enable.splita2dp=false
+vendor.bluetooth.soc=pronto
 
 # System property for cabl
 ro.qualcomm.cabl=2
@@ -176,6 +176,9 @@ vendor.camera.lowpower.record.enable=1
 #properties for limiting preview size in camera
 persist.vendor.camera.display.umax=1920x1080
 persist.vendor.camera.display.lmax=1280x720
+
+# QC framework value-adds
+ro.vendor.qti.va_aosp.support=1
 
 #expose aux camera for below packages
 vendor.camera.aux.packagelist=org.codeaurora.snapcam
