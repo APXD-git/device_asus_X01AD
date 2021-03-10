@@ -6,3 +6,6 @@ ro.lmk.critical_upgrade=false
 ro.lmk.upgrade_pressure=100
 ro.lmk.downgrade_pressure=100
 ro.lmk.log_stats=true
+
+# Gboard
+ro.com.google.ime.kb_pad_port_b=1

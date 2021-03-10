@@ -183,3 +183,6 @@ ro.cutoff_voltage_mv=3400
 ro.kernel.ebpf.supported=true
 
 persist.asus.led.on=1
+
+# Maintainer
+ro.corvus.maintainer=AP_XD | PunitRaj
