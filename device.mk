@@ -146,6 +146,7 @@ PRODUCT_PACKAGES += \
     android.hardware.configstore@1.0-service
 
 # Display
+
 PRODUCT_PACKAGES += \
     copybit.msm8953 \
     gralloc.msm8953 \

@@ -105,4 +105,8 @@ void vendor_load_properties()
     property_override("dalvik.vm.heaptargetutilization", heaptargetutilization);
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
+    // Evolution-X
+    property_override("org.evolution.build_donate_url", "http://paypal.me/APXDDD");
+    property_override("org.evolution.build_maintainer", "AP XD | PunitRaj");
+    property_override("org.evolution.build_support_url", "https://t.me/ZenfoneMax_M2");
 }
