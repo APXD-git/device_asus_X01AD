@@ -183,3 +183,7 @@ ro.cutoff_voltage_mv=3400
 ro.kernel.ebpf.supported=true
 
 persist.asus.led.on=1
+# Blur
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=1
+ro.sf.blurs_are_expensive=1
