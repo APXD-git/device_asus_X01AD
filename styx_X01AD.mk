@@ -37,7 +37,7 @@ $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Device identifiers.
 PRODUCT_DEVICE := X01AD
-PRODUCT_NAME := aosp_X01AD
+PRODUCT_NAME := styx_X01AD
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X01AD
 PRODUCT_MANUFACTURER := asus
